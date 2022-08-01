@@ -19,7 +19,7 @@ jobs:
   test:
    name: describeit 
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     strategy:
      fail-fast: false
      matrix: 
